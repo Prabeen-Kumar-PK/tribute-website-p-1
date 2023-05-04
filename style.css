@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    background: rgb(255, 255, 255);
+    height: 100vh;
+    /* border:1px dotted rgb(0, 0, 0) ; */
+    /* overflow: visible; */
+    color: rgb(0, 0, 0);
+}
+
+.content {
+    max-width: 60vw;
+    margin: auto auto;
+
+}
+
+.top-sec {
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+    margin-top: 100px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+
+.iaka {
+ width: 400px;
+ /* Black shadow with 10px blur */
+box-shadow: 8px 5px 5px black;
+
+}
+
+.ic {
+    border-radius: 110px;
+    overflow: hidden;
+}
+
+.top-sec,
+h1 {
+    font-size: 2em;
+    font-family:  'Lato', sans-serif;
+}
+
+.top-sec, .bdl {
+    
+    font-family: 'Libre Baskerville', serif;
+}
+
+.bdl {
+    float: right;
+    font-size: 1.2em;
+}
+
+.middle-sec {
+    margin-top: 50px;
+
+}
+
+.heading {
+    font-size: 1.9em;
+    text-decoration: underline;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.aboutm {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.1px;
+    text-align: justify;
+}
+
+.bio-sec {
+    margin: 50px auto;
+}
+
+.headingb {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    text-decoration: underline double;
+}
+
+.biodetails {
+    margin-left: 50px;
+    font-size: 22px;
+
+}
+
+.biodetails li {
+    margin-bottom: 13px;
+}
+
+.foot {
+    margin: 50px auto;
+}
+
+.qt {
+    text-align: center;
+    font-size: 1.9em;
+    /* text-decoration: underline wavy rgb(39, 0, 0); */
+    color: rgb(30, 0, 70);
+    font-weight: bold;
+}
+
+.lf {
+    margin: 20px auto;
+    font-size: 1.3em;
+    float: right;
+}
+.right{
+    float: left;
+}
+.apf{
+    height: 12em;
+    margin: 20px 0;
+}
